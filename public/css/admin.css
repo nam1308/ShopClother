@@ -1,0 +1,45 @@
+.sb-sidenav-header {
+    background-color: #343a40;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading,
+.sb-sidenav-dark .sb-sidenav-menu .nav-link,
+.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {
+    color: var(--light-color);
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.sb-logo-wrapper {
+    height: inherit;
+    width: 225px;
+    transition: width 0.15s ease-in-out;
+}
+
+.sb-logo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 0.25rem 0.5rem;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+    transition: color 0.5s;
+}
+
+.sb-logo:hover {
+    color: var(--primary-color) !important;
+}
+
+.card {
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+}
+
+.card-body i {
+    font-size: 3.5rem;
+}
+
+.product-info-img {
+    width: 50px;
+}

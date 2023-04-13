@@ -1,0 +1,11 @@
+.product-detail {
+    padding: 30px;
+}
+
+.product-quantity {
+    width: 130px;
+}
+
+.product-detail-img-slide__item {
+    cursor: pointer;
+}
